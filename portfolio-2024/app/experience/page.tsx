@@ -12,14 +12,10 @@ export default function Home() {
                         <li><a>Bonus</a></li>
                     </ul>
                 </div>
-
-
-
-
-
-
             </div>
-            Experience Page
+            <h1 className="mb-10">
+                Work Experience
+            </h1>
             <div className="container mx-auto">
                 <div className="collapse collapse-arrow bg-base-200">
                     <input type="radio" name="my-accordion-2" defaultChecked />
