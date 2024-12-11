@@ -21,21 +21,37 @@ export default function Home() {
                     <input type="radio" name="my-accordion-2" defaultChecked />
                     <div className="collapse-title text-xl font-medium">Web Developer - Revel Systems </div>
                     <div className="collapse-content">
-                        <p>hello</p>
+                    <ul>
+                        <li>Built out responsive pages on WordPress, integrating custom themes and plugins</li>
+                        <li>Integrated APIs to showcase customer reviews, feedback and news releases</li>
+                        <li>Tested and optimized website pages for loading speed, Core Web Vitals, cross-browser
+                        functionality and ADA compliance</li>
+                        <li>Built deployment pipelines to AWS with Terraform</li>
+                        <li>Migrated site from Wordpress to Nuxt 3.x</li>
+                        <li>Developed an interactive hardware page to support sales by showcasing company products</li>
+                        <li>Received Q3 2020 Sapphire Award for leading the redesign and building of hardware page</li>
+                        </ul>
                     </div>
                 </div>
                 <div className="collapse collapse-arrow bg-base-200">
                     <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium">Web & Software Development Instructor - Zenith Prep Academy </div>
                     <div className="collapse-content">
-                        <p>hello</p>
+                        <p>Instructed students in JavaScript, PHP , HTML, CSS, jQuery, MySQL, APACHE, XAMPP</p>
                     </div>
                 </div>
                 <div className="collapse collapse-arrow bg-base-200">
                     <input type="radio" name="my-accordion-2" />
-                    <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                    <div className="collapse-title text-xl font-medium flex justify-between"><h2>Redymr - Web & Mobile App Developer</h2><h2>September 2024 - November 2024</h2></div>
                     <div className="collapse-content">
-                        <p>hello</p>
+                        <ul>
+                            <li>
+                            Redesigned pages to enhance user experience and flow
+                            </li>
+                            <li>
+                            Optimized pages to improve load times and meet web standards
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
