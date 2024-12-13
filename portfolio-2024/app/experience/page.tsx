@@ -17,9 +17,29 @@ export default function Home() {
                 Work Experience
             </h1>
             <div className="container mx-auto">
+            <div className="collapse collapse-arrow bg-base-200">
+                    <input type="radio" name="my-accordion-2" />
+                    <div className="collapse-title text-xl font-medium flex justify-between">
+                        <h2>Redymr - Web & Mobile App Developer</h2><h2>September 2024 - November 2024</h2>
+                        <span className="italic font-light text-base">Web Developer</span>
+                        </div>
+                    <div className="collapse-content">
+                        <ul>
+                            <li>
+                            Redesigned pages to enhance user experience and flow
+                            </li>
+                            <li>
+                            Optimized pages to improve load times and meet web standards
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                 <div className="collapse collapse-arrow bg-base-200">
                     <input type="radio" name="my-accordion-2" defaultChecked />
-                    <div className="collapse-title text-xl font-medium">Web Developer - Revel Systems </div>
+                    <div className="collapse-title text-xl font-medium">
+                        <span className="text-xl block">Revel Systems - <a href="revelsystems.com">www.revelsystems.com</a></span>
+                        <span className="italic font-light text-base">Web Developer</span>
+                        </div>
                     <div className="collapse-content">
                     <ul>
                         <li>Built out responsive pages on WordPress, integrating custom themes and plugins</li>
@@ -38,20 +58,6 @@ export default function Home() {
                     <div className="collapse-title text-xl font-medium">Web & Software Development Instructor - Zenith Prep Academy </div>
                     <div className="collapse-content">
                         <p>Instructed students in JavaScript, PHP , HTML, CSS, jQuery, MySQL, APACHE, XAMPP</p>
-                    </div>
-                </div>
-                <div className="collapse collapse-arrow bg-base-200">
-                    <input type="radio" name="my-accordion-2" />
-                    <div className="collapse-title text-xl font-medium flex justify-between"><h2>Redymr - Web & Mobile App Developer</h2><h2>September 2024 - November 2024</h2></div>
-                    <div className="collapse-content">
-                        <ul>
-                            <li>
-                            Redesigned pages to enhance user experience and flow
-                            </li>
-                            <li>
-                            Optimized pages to improve load times and meet web standards
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
