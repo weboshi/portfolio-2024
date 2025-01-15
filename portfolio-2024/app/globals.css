@@ -16,6 +16,50 @@
   }
 }
 
+.navbar {
+  height: 7rem;
+}
+
+.blue-border {
+  border-bottom: 1px solid lightblue;
+}
+
+.notebook-row {
+  border-bottom: 1px solid lightblue;
+  height: 3.5rem;
+  width: 100%;
+}
+
+.red-divider {
+  border-right: 1px solid red;
+  height: 100vh;
+  position: fixed;
+  width: 5px;
+  bottom: 0;
+  right: 0;
+  left: 15rem;
+}
+
+.sticky-note {
+  background: lightyellow;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow: 3px 11px 7px -7px rgba(189, 189, 189, 1);
+  -moz-box-shadow: 3px 11px 7px -7px rgba(189, 189, 189, 1);
+  box-shadow: 3px 11px 7px -7px rgba(189, 189, 189, 1);
+  padding: 3rem;
+  line-height: 2;
+  font-size: 1.5rem;
+}
+
+
+
+.main-container {
+  position: relative;
+}
+
 /* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

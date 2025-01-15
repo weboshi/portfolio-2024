@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Mali } from 'next/font/google'
 import "./globals.css";
 import "./styles.scss"; 
 
 
 const inter = Inter({ subsets: ["latin"] });
+const mali = Mali({ 
+  subsets: ["latin"],
+  weight: ['200', '300', '400', '500', '700'],
+  style: ['normal', 'italic'],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={mali.className}>{children}</body>
     </html>
   );
 }
