@@ -21,7 +21,8 @@ const config: Config = {
     themes: [
       {
         mytheme: {
-          "base-100": "white"
+          "base-100": "white",
+          "secondary": "lightyellow"
         },
       }
     ],

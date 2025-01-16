@@ -5,12 +5,24 @@ import Navigation from "../../components/Navigation";
 export default function Home() {
     return (
         <main className="items-center">
+            <div className="red-divider"></div>
             <Navigation />
-            <h1 className="mb-10">
+            <h1 className="mb-10 mt-10">
                 Work Experience
             </h1>
-            <div className="container mx-auto">
-                <div className="collapse collapse-arrow bg-base-200">
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="container accordion-container mx-auto">
+                <div className="collapse collapse-arrow bg-secondary">
                     <input type="radio" name="my-accordion-2" defaultChecked />
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between">
@@ -29,7 +41,7 @@ export default function Home() {
                         </ul>
                     </div>
                 </div>
-                <div className="collapse collapse-arrow bg-base-200">
+                <div className="collapse collapse-arrow bg-secondary">
                     <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between">
@@ -51,13 +63,12 @@ export default function Home() {
                         </ul>
                     </div>
                 </div>
-                <div className="collapse collapse-arrow bg-base-200">
+                <div className="collapse collapse-arrow bg-secondary">
                     <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between">
                             <h2>Zenith Prep Academy</h2><h2>September 2024 - November 2024</h2>
                         </div>
-
                         <span className="italic font-light text-base">Web & Software Development Instructor </span>
                     </div>
                     <div className="collapse-content">

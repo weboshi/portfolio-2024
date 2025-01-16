@@ -7,11 +7,23 @@ export default function Home() {
     return (
         <main className="items-center">
             <Navigation />
-            <h1 className="mb-10">
+            <h1 className="mb-10 mt-10">
                 Personal Projects
             </h1>
-            <div className="container mx-auto">
-                <div className="collapse collapse-arrow bg-base-200">
+            <div className="red-divider"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="notebook-row"></div>
+            <div className="container accordion-container mx-auto">
+                <div className="collapse collapse-arrow bg-secondary">
                     <input type="radio" name="my-accordion-2" defaultChecked />
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between">
@@ -28,11 +40,11 @@ export default function Home() {
                         </ul>
                     </div>
                 </div>
-                <div className="collapse collapse-arrow bg-base-200">
+                <div className="collapse collapse-arrow bg-secondary">
                     <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between">
-                            <span className="text-xl block">Revel Systems</span>
+                            <span className="text-xl block">PolitSearch</span>
                             <span></span>
                         </div>
                         <span className="italic font-light text-base">React App</span>
@@ -46,7 +58,7 @@ export default function Home() {
                         </ul>
                     </div>
                 </div>
-                <div className="collapse collapse-arrow bg-base-200">
+                <div className="collapse collapse-arrow bg-secondary">
                     <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between">
