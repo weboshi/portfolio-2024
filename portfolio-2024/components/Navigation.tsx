@@ -9,7 +9,7 @@ export default function Navigation() {
   return (
     <div className="navbar blue-border bg-base-100">
       <div className="flex-1 justify-between px-10">
-        <Link className="font-bold text-xl" href="/">Andy's Portfolio </Link>
+        <Link className="font-bold text-xl bg-[#fdff00] p-t-5" href="/">Andy's Portfolio </Link>
         <ul className="menu menu-vertical text-lg lg:menu-horizontal">
           <li><Link href="/experience" className={currentPath === "/experience" ? "text-red-500 font-semibold" : "text-red-600"}>Experience</Link></li>
           <li><Link href="/projects" className={currentPath === "/projects" ? "text-green-500 font-semibold" : "text-green-600"}>Projects</Link></li>
