@@ -9,9 +9,9 @@ export default function Home() {
     <main className="items-center main-container">
 
       <Navigation />
-      <div className="sticky-note font-bold">
-        <p className="text-center mb-5">Welcome!</p>
-        <p>My name is Andy and I am a Full Stack Web Developer that works with the MongoDB, Express, React and Node (MERN).</p>
+      <div className="sticky-note">
+        <p className="text-center text-xl mb-5 font-bold">Welcome!</p>
+        <p>My name is Andy and I am a Full Stack Web Developer that loves building apps.</p>
       </div>
 
       <div className="notebook-row"></div>
