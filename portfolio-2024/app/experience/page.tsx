@@ -26,9 +26,9 @@ export default function Home() {
                     <input type="radio" name="my-accordion-2" defaultChecked />
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between">
-                            <h2>Redymr - Web & Mobile App Developer</h2><h2>September 2024 - November 2024</h2>
+                            <h2 className="font-bold">Redymr</h2><h2>September 2024 - November 2024</h2>
                         </div>
-                        <span className="italic font-light text-base">Web & Mobile App Developer </span>
+                        <span className="italic font-light text-base font-bold">Web & Mobile App Developer </span>
                     </div>
                     <div className="collapse-content">
                         <ul>
@@ -45,10 +45,10 @@ export default function Home() {
                     <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between">
-                            <span className="text-xl block">Revel Systems</span>
+                            <span className="text-xl block font-bold">Revel Systems</span>
                             <span>November 2019 - June 2024</span>
                         </div>
-                        <span className="italic font-light text-base">Web Developer</span>
+                        <span className="italic font-light text-base font-bold">Web Developer</span>
                     </div>
                     <div className="collapse-content">
                         <ul>
@@ -67,12 +67,14 @@ export default function Home() {
                     <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between">
-                            <h2>Zenith Prep Academy</h2><h2>September 2019 - April 2020</h2>
+                            <h2 className="font-bold">Zenith Prep Academy</h2><h2>September 2019 - April 2020</h2>
                         </div>
                         <span className="italic font-light text-base">Web & Software Development Instructor </span>
                     </div>
                     <div className="collapse-content">
-                        <p>Instructed students in JavaScript, PHP , HTML, CSS, jQuery, MySQL, APACHE, XAMPP</p>
+                        <ul>
+                            <li>Instructed students in JavaScript, PHP , HTML, CSS, jQuery, MySQL, APACHE, XAMPP</li>
+                        </ul>
                     </div>
                 </div>
             </div>
